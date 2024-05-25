@@ -1,12 +1,15 @@
 
-body{background-image: url(../images/fon.jpg); background-size: 100%; background-repeat:repeat-y; background-position: center;}
+body{background-image: url(../images/fon.jpg); background-size: cover; background-repeat:repeat-y; background-position: center;}
 body{width: 100%; height: 100%; margin: 0px;}
 .head{background-color: rgb(69, 204, 204); width: 100%; height: 70px; padding: 10px;  position: relative; position: sticky; position:fixed; top:0; z-index: 1;}
 .hblock{background-color: blue; padding: 20px 20px 20px 20px; width: max-content; margin: 5px; position: relative; border-radius: 10%;  float: left; cursor: auto; }
 .htext{color: azure; text-decoration: none; font-size: medium; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-.basa{background-color: rgb(248, 248, 248); position: relative; left: 5%; right: 10%; width: 80%; height: 1000px; padding: 20px; margin: 10px; border-color: cornflowerblue; border-radius: 20px; border-style:groove; top:60px}
-.circle{background-color: blue; width: 15px; height: 15px; border-radius: 50%; padding: 20px 20px 20px 20px; margin: 5px; margin-right: 50px; margin-left: 15px; position:relative; float: left; cursor: auto;}
-.foot{background-color:slategray;  height: 5%;padding: 15px;width: 100%; margin-top: 10px;  position:fixed;bottom:0;}
+.basa{background-color: rgb(248, 248, 248); position: relative; left: 5%; right: 10%; width: 80%; height: 500px; padding: 20px; margin: 10px; border-color: cornflowerblue; border-radius: 20px; border-style:groove; top:60px}
+.circle{background-color: blue; width: 15px; height: 15px; border-radius: 50%; padding: 20px 20px 20px 20px; margin: 5px; margin-right: 10px; margin-left: 15px; position:relative; float: right; cursor: auto;right: 5px;}
+.foot{background-color:slategray;  height: 5%;padding: 15px;width: 100%; margin-top: 10px;  position:relative;bottom:0; z-index: -1; top: 60px; height: 50px;}
 #zag{width: 45%; left: 25%; right: 25%; position: relative; padding: 20px; margin: 10px; font-size: 50px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-style: oblique; top: 60px;}
-.hello{float: left; background-color: rgb(209, 205, 200); position: relative; width: 50%; height: 80px; padding: 15px;  border-radius: 20px;}
-#foto{float: left; width: 40%; height: 400px; margin-left: 70px; border-radius: 30px;} 
+.hello{float: left; background-color: rgb(209, 205, 200); position: relative; width: 50%; height: max-content; padding: 15px;  border-radius: 20px; margin-top: 15px; font-size: 20px; font-family:'Times New Roman', Times, serif;}
+#foto{float: right; width: 40%; height: 400px; margin-left: 70px; border-radius: 30px; } 
+#ftext{color: azure; text-decoration: none; font-size: 20px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; float: left; margin-right: 5px;}
+.fato{width: 30px; height: 30px; float: left; }
+.fito{width: 500px; height: 200px; float: left; margin-left: 20px; border-radius: 20px;}
