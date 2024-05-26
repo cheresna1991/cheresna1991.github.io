@@ -5,44 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/sergo.css">
+    <script src="../js/sergo.js" type="text/javasript"></script>
     <title>СЕРЕЖА</title>
 </head>
 
 <body>
     <div class="head">
-            <div class="hblock"><a class="htext" href="../index.html">На главную</a></div>
-            <div class="hblock"><a class="htext" href="../data/b.html">Об авторах</a></div>
-            <div class="hblock"><a class="htext" href="../data/c.html">Контент</a></div>
-            <div class="hblock"><a class="htext" href="../data/d.html">Еще</a></div>
-            <div class="hblock"><a class="htext" href="../data/e.html">Поддержать</a></div>
-            <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
-            <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
-            <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
-            <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
-            <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
-            <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>            
-        </div>
-        <div id="zag">ПОМОГИТЕ СЕРЕГЕ РЕШИТЬ ЕГЭ</div>
-        <div class="basa">
+        <div class="hblock"><a class="htext" href="../index.html">На главную</a></div>
+        <div class="hblock"><a class="htext" href="../data/b.html">Об авторах</a></div>
+        <div class="hblock"><a class="htext" href="../data/c.html">Контент</a></div>
+        <div class="hblock"><a class="htext" href="../data/d.html">Еще</a></div>
+        <div class="hblock"><a class="htext" href="../data/e.html">Поддержать</a></div>
+        <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
+        <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
+        <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
+        <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
+        <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
+        <div class="circle" onclick="location.href='https://youtu.be/dQw4w9WgXcQ?si=bw_gW6Mktd471GYQ'"></div>
+    </div>
+    <div id="zag">ПОМОГИТЕ СЕРЕГЕ РЕШИТЬ ЕГЭ</div>
+    <div class="basa">
         <div class="text">
-            <div class="hello">1. У Вани было 3 банана, затем пришел Андрей и сьел их. Сколько бананов осталось?</div>
-            <div id="a"><input type="number"placeholder="Введите ответ"></div>
-            <button type="button" onclick="a();">Решить</button>
-            <div class="hello">2. В многоквартирном доме живет много кошек. На первом этаже живет две кошки, на втором в два раза больше, на третьем — столько же, сколько на втором, плюс еще одна. Сколько всего кошек живет в доме?</div>
-            <div id="b"><input type="number"placeholder="Введите ответ"></div>
-            <button type="button" onclick="b();">Решить</button>
-            <div class="hello">3. 1,5 белки за 1,5 минуты поедают 1,5 жёлудя. Вопрос: сколько желудей за 9 минут съедят 9 белок?</div>
-            <div id="c"><input type="number"placeholder="Введите ответ"></div>
-            <button type="button" onclick="c();">Решить</button>
-            <div class="hello">4. Найди сумму всех чисел от 1 до 100. Великий немецкий математик Карл Гаусс решил эту задачу за одну минуту в шестилетнем возрасте.</div>
-            <div id="d"><input type="number"placeholder="Введите ответ"></div>
-            <button type="button" onclick="d();">Решить</button>
+            <div class="hello">1. У Вани было 3 банана, затем пришел Андрей и сьел их. Сколько бананов осталось?
+            </div>
+            <div id="ia"><input type="number" class="input" placeholder="Введите ответ"></div>
+            <button type="button" class="btn" id="a">Решить</button>
+            <p id="aa" class="otext"></p>
+            <div class="hello">2. В многоквартирном доме живет много кошек. На первом этаже живет две кошки,
+                на втором в два раза больше, на третьем — столько же, сколько на втором, плюс еще одна. Сколько
+                всего кошек живет в доме?</div>
+            <input type="number" class="input" id="ib" placeholder="Введите ответ">
+            <button type="button" class="btn" id="b">Решить</button>
+            <p id="bb" class="otext"></p>
+            <div class="hello">3. 1,5 белки за 1,5 минуты поедают 1,5 жёлудя. Вопрос: сколько желудей за 9 минут
+                съедят 9 белок?</div>
+            <input type="number" class="input" id="ic" placeholder="Введите ответ">
+            <button type="button" class="btn" id="c">Решить</button>
+            <p id="cc" class="otext"></p>
+            <div class="hello">4. Найди сумму всех чисел от 1 до 100. Великий немецкий математик Карл Гаусс решил
+                эту задачу за одну минуту в шестилетнем возрасте.</div>
+            <input type="number" class="input" id="id" placeholder="Введите ответ">
+            <button type="button" class="btn" id="d">Решить</button>
+            <p id="dd" class="otext"></p>
         </div>
     </div>
-        <div class="foot">
-            <div class="cilka">
-                <p>defsssssssssssdsf</p>
-            </div>
+    <div class="foot">
+        <div class="cilka">
+            <img class="fato" src="../images/tg.png">
+            <a id="ftext" href="https://t.me/cheresna1991">Телеграмм-канал</a>
+            <img class="fato" id="youtube" src="../images/icons8-youtube-50.png">
+            <a id="ftext" href="https://www.youtube.com/@Polevaya_Cheresna">Ютуб-канал</a>
         </div>
+    </div>
 </body>
+
 </html>
