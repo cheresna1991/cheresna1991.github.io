@@ -26,7 +26,7 @@
         position: fixed;
         width: 100%;
         top: 0px;
-        z-index: 1;
+        z-index: 2;
     }
 
     .hblock {
@@ -60,7 +60,7 @@
     .ser {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 20% auto;
+        grid-template-rows: 5% auto 15%;
     }
 
     #zag {
@@ -75,7 +75,7 @@
 
     .basa {
         display: grid;
-        grid-template-columns: 15% 70% 15%;
+        grid-template-columns: 25% 50% 25%;
         grid-template-rows: auto;
         padding: 10px;
     }
@@ -88,7 +88,40 @@
         border-style: groove;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 30% auto;
+        grid-template-rows: 5% 30% 30% 50%;
+        row-gap: 20px;
+    }
+    .el1{display: grid;
+        grid-template-columns: 40% auto 50%;
+        grid-template-rows: auto;
+    }
+    .el2{display: grid;
+        grid-template-columns: 40% auto 50%;
+        grid-template-rows: auto;
+    }
+    .el3{display: grid;
+        grid-template-columns: 40% auto 50%;
+        grid-template-rows: auto;
+    }
+    .img{
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    #go{
+        visibility: hidden;
+        z-index: 1;
+        margin-top: -300px;
+    }
+    #gi{
+        visibility: hidden;
+        z-index: 1;
+        margin-left: -300px;
+    }
+    #ga{
+        visibility: hidden;
+        z-index: 1;
+        margin-left: -300px;
     }
 
     .foot {
@@ -97,6 +130,7 @@
         position: fixed;
         bottom: 0;
         width: 100%;
+        z-index: 2;
     }
 
     .fato {
@@ -123,12 +157,6 @@
         border-radius: 30px;
     }
 
-    .stext {
-        display: grid;
-        grid-template-columns: 60% auto;
-        grid-template-rows: auto;
-    }
-
     .hello {
         background-color: rgb(209, 205, 200);
         width: 80%;
@@ -137,8 +165,6 @@
         border-radius: 20px;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
-        margin-bottom: 15px;
-        margin-top: 5px;
     }
 
 }
