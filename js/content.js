@@ -8,12 +8,24 @@ img.addEventListener('click', () => {
     immg.style.visibility = 'visible';
     img.style.visibility = 'hidden';
 });
+immg.addEventListener('click', () => {
+    img.style.visibility = 'visible';
+    immg.style.visibility = 'hidden';
+});
 iimg.addEventListener('click', () => {
     iimmg.style.visibility = 'visible';
     iimg.style.visibility = 'hidden';
 });
+iimmg.addEventListener('click', () => {
+    iimg.style.visibility = 'visible';
+    iimmg.style.visibility = 'hidden';
+});
 igg.addEventListener('click', () => {
     imgg.style.visibility = 'visible';
     igg.style.visibility = 'hidden';
+});
+imgg.addEventListener('click', () => {
+    igg.style.visibility = 'visible';
+    imgg.style.visibility = 'hidden';
 });
 

@@ -1,152 +1,297 @@
-@media screen and (min-width: 1024px) {
+@media screen and (min-width:1024px) {
     body {
+        
+        width: 100%;
+        padding: 0;
+        margin: 0;
         background-image: url(../images/fon.jpg);
         background-size: cover;
         background-repeat: repeat-y;
         background-position: center;
     }
 
-    body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
+    .cont {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100px auto 100px;
     }
 
     .head {
-        background-color: rgb(69, 204, 204);
-        width: 100%;
-        height: 70px;
-        padding: 10px;
-        position: relative;
-        position: sticky;
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% auto;
+        grid-template-rows: 90%;
+        column-gap: 10px;
+        background-color: rgb(104, 190, 190);
+        padding: 5px;
         position: fixed;
-        top: 0;
+        width: 100%;
+        top: 0px;
         z-index: 1;
     }
 
     .hblock {
         background-color: blue;
-        padding: 20px 20px 20px 20px;
-        width: max-content;
-        margin: 5px;
-        position: relative;
+        padding: 20px;
+        width: auto;
+        height: auto;
         border-radius: 10%;
-        float: left;
         cursor: auto;
+        text-align: center;
     }
 
     .htext {
         color: azure;
         text-decoration: none;
-        font-size: medium;
+        font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-
-    .basa {
-        background-color: rgb(248, 248, 248);
-        position: relative;
-        left: 15%;
-        right: 20%;
-        width: 60%;
-        height: 600px;
-        padding: 15px;
-        margin: 10px;
-        border-color: cornflowerblue;
-        border-radius: 20px;
-        border-style: groove;
-        top: 60px
     }
 
     .circle {
         background-color: blue;
-        width: 15px;
-        height: 15px;
+        width: auto;
+        height: auto;
         border-radius: 50%;
         padding: 20px 20px 20px 20px;
         margin: 5px;
-        margin-right: 10px;
-        margin-left: 15px;
         position: relative;
-        float: right;
         cursor: auto;
-        right: 5px;
     }
-
-    .foot {
-        background-color: slategray;
-        height: 5%;
-        padding: 15px;
-        width: 100%;
-        margin-top: 10px;
-        position: relative;
-        bottom: 0;
-        z-index: -1;
-        top: 60px;
-        height: 50px;
+    .content{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% auto;
     }
-
+    .basa {
+        display: grid;
+        grid-template-columns: 20%  60% 20%;
+        grid-template-rows: auto;   
+    }
+    #aaa{
+        margin-top: 5px;
+    }
+    #b{
+        margin-top: 5px;
+    }
+    #c{
+        margin-top: 5px;
+    }
+    #d{
+        margin-top: 5px;
+    }
+    .m{background-color: rgb(248, 248, 248);
+        padding: 20px;
+        border-color: cornflowerblue;
+        border-radius: 20px;
+        border-style: groove;
+        row-gap: 30px;
+    }
+    .vopros{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(25, 4);
+    }
     #zag {
-        width: 60%;
-        left: 20%;
-        right: 20%;
+        width: auto;
         position: relative;
         padding: 20px;
-        margin: 10px;
         font-size: 50px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: oblique;
-        top: 60px;
+        text-align: center;
     }
 
     .hello {
-        float: left;
-        position: relative;
         width: 80%;
         height: max-content;
-        padding: 15px;
-        margin: 10px;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
     }
 
-    .ramka {
-        border-color: blue;
-        border-radius: 20px;
-        border-style: groove;
-        border-width: 5px;
-        padding: 3px;
-    }
+    
 
     .btn {
         width: 100px;
         height: 40px;
-        margin-bottom: 10px;
-        float: left;
-        margin-right: 50px;
+        
     }
 
-    .input {
-        float: left;
-        margin-right: 10px;
-        margin-left: 10px;
+    .foot {
+        background-color: slategray;
+        padding: 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .fato {
+        width: 40px;
+        height: 40px;
     }
 
     #ftext {
         color: azure;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        float: left;
-        margin-right: 5px;
+    }
+
+    .fito {
+        width: 40%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    #foto {
+        width: 100%;
+        height: 90%;
+        border-radius: 30px;
+    }
+    .a{height: 130px;}
+    .aa{height: 100px;}
+
+}
+@media screen and (min-width:320px) and (max-width:1023px){
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-image: url(../images/fon.jpg);
+        background-size: cover;
+        background-repeat: repeat-y;
+        background-position: center;
+    }
+
+    .cont {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 7% auto;
+    }
+
+    .head {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 100%;
+        background-color: rgb(104, 190, 190);
+        position: fixed;
+        column-gap: 1px;
+        width: 100%;
+        height: 10%;
+        top: 0px;
+        z-index: 1;
+    }
+
+    .hblock {
+        background-color: blue;
+        padding-top: 5px;
+        width: 100%;
+        height: 100%;
+        cursor: auto;
+        text-align: center;
+    }
+
+    .htext {
+        color: azure;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 7% auto;
+    }
+    .input{
+        height: 30px;
+    }
+    .basa {
+        display: grid;
+        grid-template-columns: 5%  90% 5%;
+        grid-template-rows: auto;   
+    }
+    #aaa{
+        margin-top: 5px;
+    }
+    #b{
+        margin-top: 5px;
+    }
+    #c{
+        margin-top: 5px;
+    }
+    #d{
+        margin-top: 5px;
+    }
+    .m{background-color: rgb(248, 248, 248);
+        padding: 20px;
+        border-color: cornflowerblue;
+        border-radius: 20px;
+        border-style: groove;
+        row-gap: 30px;
+    }
+    .vopros{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(25, 4);
+    }
+    #zag {
+        width: auto;
+        position: relative;
+        padding: 20px;
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: oblique;
+        text-align: center;
+    }
+
+    .hello {
+        width: 80%;
+        height: max-content;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    
+
+    .btn {
+        width: 100px;
+        height: 40px;
+        
+    }
+
+    .foot {
+        background-color: slategray;
+        padding: 10px;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        height: 5%;
     }
 
     .fato {
         width: 30px;
         height: 30px;
-        float: left;
     }
 
-    .otext {
-        float: left;
+    #ftext {
+        color: azure;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
+
+    .fito {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    #foto {
+        width: 80%;
+        height: 90%;
+        border-radius: 30px;
+        display: none;
+    }
+    .a{height: 50px;}
+    .aa{height: 50px;}
+
 }

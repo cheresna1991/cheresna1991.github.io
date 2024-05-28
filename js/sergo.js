@@ -1,4 +1,4 @@
-let a = document.getElementById('a');
+let a = document.getElementById('aaa');
 a.addEventListener('click', () => {
     var ia = Number(document.querySelector('#ia>input').value);
     if (ia === 0) {
