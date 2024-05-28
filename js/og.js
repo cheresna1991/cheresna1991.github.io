@@ -8,4 +8,5 @@ object.onmouseenter=function(){
 };
 object.addEventListener('click', () => {
     a.style.visibility = 'visible';
+    object.style.visibility = 'hidden';
 });
