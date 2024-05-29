@@ -11,17 +11,14 @@
         #zag{
             color: #f0ffff;
         }
-        .btext{
-            color: #f0ffff;
-        }
     }
     .bt{
-        font-size: 20px;
-        margin: 5px;
-        height: 30px;
-        float: right;
-        margin-right: 30px;
-    }
+    font-size: 20px;
+    margin: 5px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+}
     body {
         
         width: 100%;
@@ -49,7 +46,7 @@
         position: fixed;
         width: 100%;
         top: 0px;
-        z-index: 1;
+        z-index: 2;
     }
 
     .hblock {
@@ -83,9 +80,9 @@
     .ser {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 100px auto;
+        grid-template-rows: 25% auto 15%;
     }
-.a{height: 100px;}
+
     #zag {
         width: auto;
         position: relative;
@@ -98,8 +95,8 @@
 
     .basa {
         display: grid;
-        grid-template-columns:25% 50% 25%;
-        grid-template-rows: 100%;
+        grid-template-columns: 25% 50% 10%;
+        grid-template-rows: auto;
         padding: 10px;
     }
 
@@ -110,17 +107,18 @@
         border-radius: 20px;
         border-style: groove;
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows:auto;
-        row-gap: 50px;
+        grid-template-columns: auto;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        row-gap: 20px;
+        height: auto;
     }
-
     .foot {
         background-color: #50555B;
         padding: 20px;
         position: fixed;
         bottom: 0;
         width: 100%;
+        z-index: 2;
     }
 
     .fato {
@@ -134,59 +132,28 @@
         font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    .btext{
-        width: auto;
-        position: relative;
-        font-size: 30px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style: oblique;
-        text-align: center;
-    }
-    
-    .y{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 5% 90% 5%;
-    }
-    .sir{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 5% 90% 5%;
-    }
-    .svet{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 5% 90% 5%;
-    }
-    .ogi{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 50% 50% auto;
-    }
-    .gif{
-        width: 300px;
-        height: 300px;
-        border-radius: 10px;
-        align-self: center;
-        justify-self: center;
-    }
-    .pole{
-        background-color: blue;
-        padding: 20px;
-        width: max-content;
-        height: auto;
-        border-radius: 10%;
-        cursor: auto;
-        text-align: center;
-        align-self: center;
-        justify-self: center;
-    }
-    #haga{
-        color: azure;
-        text-decoration: none;
+
+    .hello {
+        background-color: #50555B;
+        width: 95%;
+        height: max-content;
+        padding: 15px;
+        border-radius: 20px;
         font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(245, 245, 245);
     }
+.ss{
+    display: grid;
+    row-gap: 10px;
+}
+.a{height: 100px;}
+.cc{
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+#cc{
+    color: rgb(245, 245, 245);}
 }
 @media screen and (min-width:320px) and (max-width:1023px){
     [data-theme="dark"] {
@@ -201,15 +168,12 @@
         #zag{
             color: #f0ffff;
         }
-        .btext{
-            color: #f0ffff;
-        }
     }
     .bt{
         font-size: 15px;
         margin: 5px;
         height: 30px;
-    }
+    } 
     body {
         width: 100%;
         padding: 0;
@@ -223,7 +187,7 @@
     .cont {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 5% auto 15%;
+        grid-template-rows: 10% auto 10%;
     }
 
     .head {
@@ -247,7 +211,12 @@
         cursor: auto;
         text-align: center;
     }
-
+.cc{
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+}
+#cc{
+    color: rgb(245, 245, 245);}
     .htext {
         color: azure;
         text-decoration: none;
@@ -257,7 +226,7 @@
     .ser {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 60px auto;
+        grid-template-rows: 20% auto;
     }
 
     #zag {
@@ -269,26 +238,12 @@
         font-style: oblique;
         text-align: center;
     }
-
     .basa {
         display: grid;
         grid-template-columns:5% 90% 5%;
         grid-template-rows: auto;
         padding: 5px;
     }
-
-    .text {
-        background-color: rgb(248, 248, 248);
-        padding: 10px;
-        border-color: cornflowerblue;
-        border-radius: 20px;
-        border-style: groove;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows:auto;
-        row-gap: 40px;
-    }
-
     .foot {
         background-color: #50555B;
         padding: 10px;
@@ -296,6 +251,7 @@
         bottom: 0px;
         width: 100%;
         height: 10%;
+        z-index: 2;
     }
 
     .fato {
@@ -309,59 +265,31 @@
         font-size: 15px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-
-    .btext{
-        width: auto;
-        position: relative;
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-style: oblique;
-        text-align: center;
-    }
-    
-    .y{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 5% 90% 5%;
-    }
-    .sir{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 5% 90% 5%;
-    }
-    .svet{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 5% 90% 5%;
-    }
-    .ogi{
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 50% 50% auto;
-    }
-    .gif{
-        width: 150px;
-        height: 150px;
-        border-radius: 10px;
-        align-self: center;
-        justify-self: center;
-    }
-    .pole{
-        background-color: blue;
+    .hello {
+        background-color: #50555B;
+        width: 90%;
+        height: max-content;
         padding: 10px;
-        width: max-content;
-        height: auto;
-        border-radius: 10%;
-        cursor: auto;
-        text-align: center;
-        align-self: center;
-        justify-self: center;
-    }
-    #haga{
-        color: azure;
-        text-decoration: none;
+        border-radius: 20px;
         font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        color: rgb(245, 245, 245);
     }
-    .a{height: 75px;}
+    .text {
+        background-color: rgb(248, 248, 248);
+        padding: 10px;
+        border-color: cornflowerblue;
+        border-radius: 20px;
+        border-style: groove;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 25% 25% 25% 25%;
+        row-gap: 5px;
+    }
+    .ss{
+        display: grid;
+        row-gap: 10px;
+    }
+    .a{height: 70px;}
 }

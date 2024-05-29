@@ -1,4 +1,17 @@
 @media screen and (min-width:1024px) {
+    [data-theme="dark"] {
+        body{
+            background-image: none;
+            background-color: black;
+        }
+        .text{
+            background-color: rgb(119, 118, 118);
+            border-color: rgb(2, 38, 105);
+        }
+        #zag{
+            color: #f0ffff;
+        }
+    }
     body {
         
         width: 100%;
@@ -21,7 +34,7 @@
         grid-template-columns: 10% 10% 10% 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% auto;
         grid-template-rows: 90%;
         column-gap: 10px;
-        background-color: rgb(104, 190, 190);
+        background-color: #68bebe;
         padding: 5px;
         position: fixed;
         width: 100%;
@@ -30,7 +43,7 @@
     }
 
     .hblock {
-        background-color: blue;
+        background-color: #0000ff;
         padding: 20px;
         width: auto;
         height: auto;
@@ -40,7 +53,7 @@
     }
 
     .htext {
-        color: azure;
+        color: #f0ffff;
         text-decoration: none;
         font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -92,7 +105,7 @@
     }
 
     .foot {
-        background-color: slategray;
+        background-color: #50555B;
         padding: 20px;
         position: fixed;
         bottom: 0;
@@ -105,7 +118,7 @@
     }
 
     #ftext {
-        color: azure;
+        color: #f0ffff;
         text-decoration: none;
         font-size: 25px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -128,9 +141,15 @@
         grid-template-columns: 60% auto;
         grid-template-rows: auto;
     }
-
+.bt{
+    font-size: 20px;
+    margin: 5px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+}
     .hello {
-        background-color: rgb(209, 205, 200);
+        background-color: #50555B;
         width: 80%;
         height: max-content;
         padding: 15px;
@@ -139,10 +158,24 @@
         font-family: 'Times New Roman', Times, serif;
         margin-bottom: 15px;
         margin-top: 5px;
+        color: rgb(245, 245, 245);
     }
 
 }
 @media screen and (min-width:320px) and (max-width:1023px){
+    [data-theme="dark"] {
+        body{
+            background-image: none;
+            background-color: black;
+        }
+        .text{
+            background-color: rgb(119, 118, 118);
+            border-color: rgb(2, 38, 105);
+        }
+        #zag{
+            color: #f0ffff;
+        }
+    }
     body {
         width: 100%;
         padding: 0;
@@ -224,17 +257,17 @@
     }
 
     .foot {
-        background-color: slategray;
+        background-color: #50555B;
         padding: 10px;
         position: fixed;
         bottom: 0px;
         width: 100%;
-        height: 5%;
+        height: 10%;
     }
 
     .fato {
-        width: 30px;
-        height: 30px;
+        width: 20px;
+        height: 20px;
     }
 
     #ftext {
@@ -251,7 +284,7 @@
     }
 
     #foto {
-        width: 80%;
+        width: 50%;
         height: 90%;
         border-radius: 30px;
         display: none;
@@ -264,14 +297,20 @@
     }
 
     .hello {
-        background-color: rgb(209, 205, 200);
+        background-color: #50555B;
         width: 80%;
         height: max-content;
         padding: 15px;
         border-radius: 20px;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
+        color: rgb(245, 245, 245);
     }
-    .a{height: 30px;}
+    .a{height: 40px;}
     .ss{display: grid; row-gap: 5px;}
+    .bt{
+        font-size: 15px;
+        margin: 5px;
+        height: 30px;
+    }
 }
