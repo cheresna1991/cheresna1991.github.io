@@ -221,7 +221,7 @@
     .cont {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 10% auto 10%;
+        grid-template-rows: 15% auto 10%;
     }
 
     .head {
