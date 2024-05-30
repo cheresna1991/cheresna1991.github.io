@@ -189,7 +189,7 @@
     .cont {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 7% auto;
+        grid-template-rows: 15% auto;
     }
 
     .head {
