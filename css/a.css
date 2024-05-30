@@ -306,7 +306,7 @@
         font-family: 'Times New Roman', Times, serif;
         color: rgb(245, 245, 245);
     }
-    .a{height: 80px;}
+    .a{height: 100px;}
     .ss{display: grid; row-gap: 5px;}
     .bt{
         font-size: 15px;
