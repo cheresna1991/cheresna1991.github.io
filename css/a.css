@@ -224,7 +224,7 @@
     .ser {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 15% auto;
+        grid-template-rows: 9% auto;
     }
 
     #zag {
