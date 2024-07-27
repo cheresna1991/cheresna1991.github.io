@@ -1,15 +1,98 @@
 @media screen and (min-width:1024px) {
     [data-theme="dark"] {
         body{
-            background-image: none;
+            background-image: url(../images/shiny_seamless_arabic_geometric_ornament_pattern_on_black_background.jpg);
             background-color: black;
         }
         .text{
-            background-color: rgb(119, 118, 118);
-            border-color: rgb(2, 38, 105);
+            background-color: rgb(26, 26, 26);
+            border-color: rgb(201, 201, 201);
         }
         #zag{
             color: #f0ffff;
+        }
+        .head {
+            background-color: #03000a;
+        }
+        .bt{
+            background-color: #1f1e1e;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #807f81;
+        }
+        .hello{
+            background-color: rgb(12, 12, 12);
+        }
+        .foot{
+            background-color: #2b2a2a;
+        }
+        .hblock:hover{
+            background-color: #5c5c5c;
+        }
+    }
+    [data-theme="yellow"] {
+        body{
+            background-image: url(../images/19114f865c0736b6ed3d212747c6d313.jpg);
+            background-color: rgb(206, 209, 15);
+        }
+        .text{
+            background-color: rgb(167, 161, 85);
+            border-color: rgb(104, 165, 5);
+        }
+        #zag{
+            color: #000000;
+        }   
+        .head {
+            background-color: #acb625;
+        }
+        .bt{
+            background-color: #919b08;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #ebdf3e;
+        }
+        .hello{
+            background-color: rgb(119, 107, 2);
+        }
+        .foot{
+            background-color: #646601;
+        }
+        .hblock:hover{
+            background-color: #c8d41e;
+        }
+    } 
+    [data-theme="horny"] {
+        body{
+            background-image: url(../images/pink.jpg);
+            background-color: rgb(209, 15, 122);
+        }
+        .text{
+            background-color: rgb(179, 34, 126);
+            border-color: rgb(190, 54, 138);
+        }
+        #zag{
+            color: #500330;
+        }
+        .head {
+            background-color: #720557;
+        }
+        .bt{
+            background-color: #3b022d;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #d113b1;
+        }
+        .hello{
+            background-color: rgb(109, 22, 94);
+        }
+        .foot{
+            background-color: #5c044d;
+        }
+        .hblock:hover{
+            background-color: #e938e9;
         }
     }
     body {
@@ -26,7 +109,7 @@
     .cont {
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 5% auto 10%;
+        grid-template-rows: 5% auto;
     }
 
     .head {
@@ -62,7 +145,7 @@
     .ser {
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 15% auto;
+        grid-template-rows: 20% auto 20%;
     }
 
     #zag {
@@ -77,7 +160,7 @@
 
     .basa {
         display: grid;
-        grid-template-columns: 15% 70% 15%;
+        grid-template-columns: 25% 50% 25%;
         grid-template-rows: auto;
         padding: 10px;
     }
@@ -94,12 +177,12 @@
     }
 
     .foot {
-        background-color: #50555B;
+        background-color: #0d2849;
         padding: 10px;
-        position: relative;
+        position: fixed;
         bottom: 0;
         width: 100%;
-        top: 20px;
+
     }
 
     .fato {
@@ -116,9 +199,12 @@
     }
 
     .fito {
-        width: 40%;
-        height: 100%;
+        width: 60%;
+        height: 90%;
         border-radius: 20px;
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
     }
 
     #foto {
@@ -128,9 +214,9 @@
     }
 
     .stext {
-        display: grid;
-        grid-template-columns: 60% auto;
-        grid-template-rows: auto;
+        display: block;
+        margin-left: auto;
+    margin-right: auto;
     }
 .bt{
     font-size: 20px;
@@ -146,8 +232,8 @@
     background-color: #541ee9;
 }
     .hello {
-        background-color: #50555B;
-        width: 80%;
+        background-color: #354e6d;
+        width: auto;
         height: max-content;
         padding: 15px;
         border-radius: 20px;
