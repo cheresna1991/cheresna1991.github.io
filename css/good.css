@@ -1,15 +1,116 @@
 @media screen and (min-width: 1024px) {
     [data-theme="dark"] {
         body{
-            background-image: none;
+            background-image: url(../images/shiny_seamless_arabic_geometric_ornament_pattern_on_black_background.jpg);
             background-color: black;
         }
+        .pole{
+            background-color: rgb(110, 110, 110);
+            
+        }
+        .btext{
+            color: #f0ffff;
+        }
         .text{
-            background-color: rgb(119, 118, 118);
-            border-color: rgb(2, 38, 105);
+            background-color: rgb(26, 26, 26);
+            border-color: rgb(201, 201, 201);
         }
         #zag{
             color: #f0ffff;
+        }
+        .head {
+            background-color: #03000a;
+        }
+        .bt{
+            background-color: #1f1e1e;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #807f81;
+        }
+        .hello{
+            background-color: rgb(12, 12, 12);
+        }
+        .foot{
+            background-color: #2b2a2a;
+        }
+        .hblock:hover{
+            background-color: #5c5c5c;
+        }
+    }
+    [data-theme="yellow"] {
+        body{
+            background-image: url(../images/19114f865c0736b6ed3d212747c6d313.jpg);
+            background-color: rgb(206, 209, 15);
+        }
+        .pole{
+            background-color: rgb(172, 148, 15);
+            
+        }
+        .text{
+            background-color: rgb(167, 161, 85);
+            border-color: rgb(104, 165, 5);
+        }
+        #zag{
+            color: #000000;
+        }   
+        .head {
+            background-color: #acb625;
+        }
+        .bt{
+            background-color: #919b08;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #ebdf3e;
+        }
+        .hello{
+            background-color: rgb(119, 107, 2);
+        }
+        .foot{
+            background-color: #646601;
+        }
+        .hblock:hover{
+            background-color: #c8d41e;
+        }
+    } 
+    [data-theme="horny"] {
+        body{
+            background-image: url(../images/pink.jpg);
+            background-color: rgb(209, 15, 122);
+        }
+        .pole{
+            background-color: rgb(128, 8, 98);
+            
+        }
+        .btext{
+            color: #f0ffff;
+        }
+        .text{
+            background-color: rgb(179, 34, 126);
+            border-color: rgb(190, 54, 138);
+        }
+        #zag{
+            color: #500330;
+        }
+        .head {
+            background-color: #720557;
+        }
+        .bt{
+            background-color: #3b022d;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #d113b1;
+        }
+        .hello{
+            background-color: rgb(109, 22, 94);
+        }
+        .foot{
+            background-color: #5c044d;
+        }
+        .hblock:hover{
+            background-color: #e938e9;
         }
     }
     body {
@@ -26,49 +127,176 @@
 
     .head {
         display: grid;
-        grid-template-columns: 10% 10% 10% 10% 5% 5% 5% 5% 5% 5% 5% 5% 5% auto;
+        grid-template-columns: 10% 10% 10% 10% 25% auto;
         grid-template-rows: 90%;
         column-gap: 10px;
-        background-color: rgb(104, 190, 190);
-        padding: 5px;
+        background-color: #260879;
         position: fixed;
         width: 100%;
         top: 0px;
         z-index: 1;
     }
-    .a{
-        height: 80px;
-    }
+
     .hblock {
-        background-color: blue;
-        padding: 20px;
+        padding: 10px;
         width: auto;
         height: auto;
-        border-radius: 10%;
         cursor: auto;
         text-align: center;
     }
+.hblock:hover{
+    background-color: #4e1ed4;
+}
 
     .htext {
-        color: azure;
+        color: #f0ffff;
         text-decoration: none;
         font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-
-    .circle {
-        background-color: blue;
-        width: auto;
-        height: auto;
-        border-radius: 50%;
-        padding: 20px 20px 20px 20px;
+    #good{width: 100%; height: 100%; margin-top: 10px;}
+    .bt{
+        font-size: 20px;
         margin: 5px;
-        position: relative;
-        cursor: auto;
+        height: 30px;
+        border-radius: 10px;
+        background-color: #4d27b6;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
-    #good{width: 100%; height: 533px; margin-top: 90px;}
+    .bt:hover{
+        background-color: #541ee9;
+    }
 }
 @media screen and (min-width:320px) and (max-width:1023px){
+    [data-theme="dark"] {
+        body{
+            background-image: url(../images/shiny_seamless_arabic_geometric_ornament_pattern_on_black_background.jpg);
+            background-color: black;
+        }
+        .pole{
+            background-color: rgb(110, 110, 110);
+            
+        }
+        .btext{
+            color: #f0ffff;
+        }
+        .text{
+            background-color: rgb(26, 26, 26);
+            border-color: rgb(201, 201, 201);
+        }
+        #zag{
+            color: #f0ffff;
+        }
+        .head {
+            background-color: #03000a;
+        }
+        .bt{
+            background-color: #1f1e1e;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #807f81;
+        }
+        .hello{
+            background-color: rgb(12, 12, 12);
+        }
+        .foot{
+            background-color: #2b2a2a;
+        }
+        .hblock:hover{
+            background-color: #5c5c5c;
+        }
+    }
+    [data-theme="yellow"] {
+        body{
+            background-image: url(../images/19114f865c0736b6ed3d212747c6d313.jpg);
+            background-color: rgb(206, 209, 15);
+        }
+        .pole{
+            background-color: rgb(172, 148, 15);
+            
+        }
+        .text{
+            background-color: rgb(167, 161, 85);
+            border-color: rgb(104, 165, 5);
+        }
+        #zag{
+            color: #000000;
+        }   
+        .head {
+            background-color: #acb625;
+        }
+        .bt{
+            background-color: #919b08;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #ebdf3e;
+        }
+        .hello{
+            background-color: rgb(119, 107, 2);
+        }
+        .foot{
+            background-color: #646601;
+        }
+        .hblock:hover{
+            background-color: #c8d41e;
+        }
+    } 
+    [data-theme="horny"] {
+        body{
+            background-image: url(../images/pink.jpg);
+            background-color: rgb(209, 15, 122);
+        }
+        .pole{
+            background-color: rgb(128, 8, 98);
+            
+        }
+        .btext{
+            color: #f0ffff;
+        }
+        .text{
+            background-color: rgb(179, 34, 126);
+            border-color: rgb(190, 54, 138);
+        }
+        #zag{
+            color: #500330;
+        }
+        .head {
+            background-color: #720557;
+        }
+        .bt{
+            background-color: #3b022d;
+            color: #fff;
+        }
+        .bt:hover{
+            background-color: #d113b1;
+        }
+        .hello{
+            background-color: rgb(109, 22, 94);
+        }
+        .foot{
+            background-color: #5c044d;
+        }
+        .hblock:hover{
+            background-color: #e938e9;
+        }
+    }
+    .bt{
+        font-size: 20px;
+        margin: 5px;
+        height: 30px;
+        width: max-content;
+        border-radius: 10px;
+        background-color: #4d27b6;
+        color: #fff;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .bt:hover{
+        background-color: #541ee9;
+    }
     body {
         width: 100%;
         padding: 0;
@@ -87,32 +315,34 @@
 
     .head {
         display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 100%;
-        background-color: rgb(104, 190, 190);
+        grid-template-columns: 25% 25% 25% 25% auto;
+        grid-template-rows: 50%;
+        
+        background-color: #260879;
         position: fixed;
-        column-gap: 1px;
         width: 100%;
-        height: 10%;
         top: 0px;
         z-index: 1;
     }
 
     .hblock {
-        background-color: blue;
-        padding-top: 5px;
-        width: 100%;
-        height: 100%;
+        padding: 5px;
+        width: auto;
+        height: auto;
         cursor: auto;
         text-align: center;
     }
-
-    .htext {
-        color: azure;
-        text-decoration: none;
-        font-size: 17px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    .hblock:hover{
+    background-color: #4e1ed4;
     }
-
+    .htext {
+        color: #f0ffff;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }    
+    .cool{display: grid;
+        grid-template-columns: auto 100%;
+    width: 100%;}
     #good{width: 100%; height:486px; margin-top: 50px;}
 }
